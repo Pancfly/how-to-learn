@@ -91,6 +91,89 @@
   z-index: 2;
 }
 
+/*.content {
+  
+}*/
+
+.description {
+  margin: 100px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.two-columns {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  width: 80%;
+  position: relative;
+}
+
+.two-columns__brief {
+  width: 175px;
+  position: absolute;
+  left:0;
+  top: 0; 
+}
+
+.two-columns__brief_text {
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin:0;
+  vertical-align: text-top;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+  margin: 0;
+  position: absolute;
+  right:0;
+  top: 0; 
+}
+
+.two-columns__main-text_paragraph {
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__main-text_paragraph:last-child {
+  margin: 0;
+}
+
+.two-columns__main-text_span-accent {
+  color: black;
+  font-weight: bold;
+}
+
+.digits {
+  display: flex;
+  position: relative;
+  align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
