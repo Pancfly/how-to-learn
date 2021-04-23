@@ -10,6 +10,11 @@
   z-index: -1;
 }
 
+.page__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -67,11 +72,6 @@
   padding: 0;
 }
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -96,9 +96,8 @@
 }*/
 
 .description {
-  margin: 100px 0;
+  margin: 100px auto 0 auto;
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
 }
@@ -146,7 +145,7 @@
 }
 
 .two-columns__main-text_paragraph:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .two-columns__main-text_span-accent {
@@ -155,6 +154,7 @@
 }
 
 .digits {
+  height: 800px;
   display: flex;
   position: relative;
   align-items: center;
@@ -166,8 +166,70 @@
 
 
 
+.feynman {
+  margin: 100px 0;
+  height: 790px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 
+}
 
+.feynman__title {
+  position: absolute;
+  top: 100px;
+  left: auto;
+  width: 648px;
+
+  z-index: 5;
+}
+
+.feynman__title_text {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  padding-top: 70px;
+  z-index: 4;
+
+}
+
+.feynman__subtitle_text {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  z-index: 3;
+}
+
+.feynman__link_text {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__img {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
 
 
 
@@ -180,4 +242,29 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+  margin: auto;
+  
+}
+
+.footer__columns {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 60px auto 40px auto;
+  display: flex;
+  flex-basis: 711px;
 }
