@@ -14,8 +14,7 @@ li {
   z-index: -1;
 }
 
-.page__link {
-  color: #2f80ed;
+.link {
   text-decoration: none;
 }
 
@@ -46,18 +45,15 @@ li {
 
 .header__title {
   width: 730px;
-  position: absolute;
+  position: relative;
   left: 64px;
   margin: 0;
-  z-index: 5;
-}
-
-.header__title_text {
   font-size: 102px;
   font-weight: bold;
+  align-self: center;
   line-height: 96px;
   margin: 0;
-  padding: 0;
+  z-index: 5;
 }
 
 .header__subtitle {
@@ -65,16 +61,15 @@ li {
   position: absolute;
   left: 64px;
   bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   z-index: 4;
   margin:0;
 }
 
-.header__subtitle_text {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
+.header__link {
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -234,6 +229,7 @@ li {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
   z-index: 3;
 }
 
