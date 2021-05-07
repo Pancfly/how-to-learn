@@ -2,8 +2,8 @@
 @import url('__logo/resources__logo.css');
 
 .resources {
+    padding: 100px 0 217px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 100px 0 217px;
+    align-items: center;    
 }
