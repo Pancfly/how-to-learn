@@ -4,5 +4,8 @@
     position: absolute;
     right:0;
     bottom: 0;
+    object-fit: cover;
+    object-position: right bottom;
+    overflow: hidden;
     z-index: 3;
 }
