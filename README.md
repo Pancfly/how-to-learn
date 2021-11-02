@@ -16,4 +16,4 @@
 * Адаптировать сайт для просмотра на разных устройствах
 
 ## Ссылка на сайт:
-[Перейти](https://github.com/Pancfly/how-to-learn)
+[Перейти](https://pancfly.github.io/how-to-learn/)
